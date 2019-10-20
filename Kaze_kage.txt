@@ -1,0 +1,22 @@
+Team Name -- Kaze_Kage
+========================================================================================================
+Members   -- Divyanshu
+             Aman Singhal
+             Abhishek Dhariwal
+========================================================================================================
+Project Description --	Around 135,000,000 No. of visually impaired people dependent on other people for 			small daily tasks.So we decided to solve this problem so that they can move a 			forward step to live as normal peoples.
+
+We have taken care of a few-- 1>Identifying Objects in the surrounding.
+			      2>Detect manufacturing and expiry date of consumer products.
+		              3>Remind them of things they have, that are expired.
+			      4>Read text from various things.
+
+The app is divided into three parts -- 1>: Object identification Captures the image and identifies all 					                   the objects using Azure cognitive services.
+				       2>: Extract mfg. and expiry date.User clicks the image of the 					 		   product, and if mfg. date is found, it is read aloud.If not 					   		   found, user is prompted to change the orientation and process                                            repeats.If mfg and expiry date is found user is prompted, if 					           they want to be reminded when the product expires.
+				       3>: Read text from image .Reads aloud the text that is in the 					  		   image
+
+Tech Stacks -- 				Object Identification: Azure Cognitive Services (Cloud)
+					Text Detection: googles’ ML vision Library (Offline)
+					Text To Speech: gTTS(Google Text to Speech) (Offline)
+
+========================================================================================================
